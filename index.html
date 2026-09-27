@@ -6,598 +6,972 @@
 
 <meta name="google-site-verification" content="Q9GJrRFO3PnR3G-eY5ulf4MrLBIVKN7MHMpRbhNJy7Y" />
 
-<title>Wedding Haar | Premium Handmade Note Haar</title>
-<meta name="description" content="Handmade wedding note haar for weddings, celebrations and special occasions. Custom designs and note values available.">
+<title>Wedding Haar | Premium Money Haar</title>
+<meta name="description" content="Beautiful handmade money haar for weddings, shagun, festivals and special occasions. Custom designs and local delivery available.">
 
 <style>
-*{box-sizing:border-box;margin:0;padding:0}
-html{scroll-behavior:smooth}
-body{
-font-family:Arial,Helvetica,sans-serif;
-background:#0b0707;
-color:#fff;
-line-height:1.6
-}
-a{text-decoration:none;color:inherit}
-:root{
---gold:#e5b85c;
---light:#ffe6a5;
---wine:#351116;
---card:#1b0e10
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
 }
 
+html{
+  scroll-behavior:smooth;
+}
+
+body{
+  font-family:Arial,Helvetica,sans-serif;
+  background:#050b18;
+  color:#fff;
+  line-height:1.6;
+}
+
+:root{
+  --blue:#1769ff;
+  --blue2:#4da3ff;
+  --dark:#050b18;
+  --dark2:#09152b;
+  --card:#0d1c35;
+  --gold:#f2c96d;
+  --text:#f5f8ff;
+  --muted:#9eabc1;
+}
+
+a{
+  text-decoration:none;
+  color:inherit;
+}
+
+/* NAVBAR */
+
 header{
-position:fixed;
-top:0;
-left:0;
-width:100%;
-z-index:999;
-padding:15px 6%;
-display:flex;
-align-items:center;
-justify-content:space-between;
-background:rgba(10,6,6,.9);
-backdrop-filter:blur(15px);
-border-bottom:1px solid rgba(229,184,92,.25)
+  position:fixed;
+  top:0;
+  left:0;
+  width:100%;
+  z-index:999;
+  padding:15px 6%;
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  background:rgba(3,8,20,.88);
+  backdrop-filter:blur(18px);
+  border-bottom:1px solid rgba(77,163,255,.2);
 }
 
 .logo{
-font-size:23px;
-font-weight:900;
-color:var(--light)
+  font-size:22px;
+  font-weight:900;
+  color:white;
+}
+
+.logo span{
+  color:var(--blue2);
 }
 
 nav{
-display:flex;
-gap:20px
+  display:flex;
+  gap:22px;
 }
 
 nav a{
-font-size:13px;
-font-weight:bold;
-color:#eee
+  color:#dbe7ff;
+  font-size:13px;
+  font-weight:700;
+  transition:.3s;
 }
 
-nav a:hover{color:var(--gold)}
+nav a:hover{
+  color:var(--blue2);
+}
+
+/* HERO */
 
 .hero{
-min-height:100vh;
-padding:140px 6% 80px;
-display:flex;
-align-items:center;
-justify-content:center;
-text-align:center;
-background:
-radial-gradient(circle at 20% 20%,#64252c,transparent 35%),
-radial-gradient(circle at 80% 75%,#60441d,transparent 30%),
-linear-gradient(135deg,#0c0707,#2b1015,#0b0707)
+  min-height:100vh;
+  padding:145px 6% 90px;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  text-align:center;
+
+  background:
+  radial-gradient(circle at 20% 20%,rgba(23,105,255,.35),transparent 35%),
+  radial-gradient(circle at 85% 70%,rgba(52,140,255,.22),transparent 32%),
+  linear-gradient(135deg,#030817,#07152d,#020713);
 }
 
-.hero-content{max-width:850px}
+.hero-content{
+  max-width:900px;
+}
 
 .crown{
-font-size:55px;
-margin-bottom:12px
+  font-size:55px;
+  margin-bottom:12px;
 }
 
 .badge{
-display:inline-block;
-padding:8px 17px;
-border:1px solid rgba(229,184,92,.55);
-border-radius:50px;
-color:var(--light);
-font-size:11px;
-letter-spacing:2px;
-text-transform:uppercase;
-margin-bottom:20px
+  display:inline-block;
+  padding:8px 17px;
+  border:1px solid rgba(77,163,255,.55);
+  border-radius:50px;
+  color:#b8dcff;
+  font-size:11px;
+  letter-spacing:2px;
+  text-transform:uppercase;
+  margin-bottom:20px;
 }
 
 h1{
-font-size:62px;
-line-height:1.05;
-margin-bottom:22px
+  font-size:62px;
+  line-height:1.05;
+  margin-bottom:22px;
 }
 
-h1 span{color:var(--light)}
+h1 span{
+  color:var(--blue2);
+}
 
 .hero p{
-max-width:650px;
-margin:auto;
-color:#d6c8c0;
-font-size:17px
+  max-width:680px;
+  margin:auto;
+  color:#b4c1d6;
+  font-size:17px;
 }
 
 .btn{
-display:inline-block;
-margin:22px 5px 0;
-padding:14px 23px;
-border-radius:9px;
-font-weight:800;
-font-size:14px;
-transition:.25s
+  display:inline-block;
+  margin:24px 5px 0;
+  padding:14px 24px;
+  border-radius:10px;
+  font-weight:800;
+  font-size:14px;
+  transition:.3s;
 }
 
-.btn:hover{transform:translateY(-3px)}
+.btn:hover{
+  transform:translateY(-4px);
+}
 
-.gold{
-background:linear-gradient(135deg,#b67e2e,#f3d17c);
-color:#180e08
+.blue{
+  background:linear-gradient(135deg,#1769ff,#53a8ff);
+  color:white;
+  box-shadow:0 8px 30px rgba(23,105,255,.25);
 }
 
 .green{
-background:#20c866;
-color:white
+  background:#20c96b;
+  color:white;
 }
 
 .outline{
-border:1px solid var(--gold);
-color:var(--light)
+  border:1px solid #438fff;
+  color:#bdddff;
 }
 
-section{padding:90px 6%}
+/* GENERAL */
+
+section{
+  padding:95px 6%;
+}
 
 .heading{
-max-width:720px;
-margin:0 auto 45px;
-text-align:center
+  max-width:750px;
+  margin:0 auto 48px;
+  text-align:center;
 }
 
 .heading small{
-color:var(--gold);
-letter-spacing:3px;
-font-weight:bold;
-font-size:11px
+  color:var(--blue2);
+  letter-spacing:3px;
+  font-size:11px;
+  font-weight:800;
 }
 
 .heading h2{
-font-size:40px;
-margin:8px 0 12px
+  font-size:40px;
+  margin:8px 0 12px;
 }
 
-.heading p{color:#aa9c94}
+.heading p{
+  color:var(--muted);
+}
 
-.values{
-background:#100909
+/* HAAR */
+
+.haar{
+  background:#060d1c;
 }
 
 .grid{
-max-width:1100px;
-margin:auto;
-display:grid;
-grid-template-columns:repeat(3,1fr);
-gap:20px
+  max-width:1150px;
+  margin:auto;
+  display:grid;
+  grid-template-columns:repeat(3,1fr);
+  gap:20px;
 }
 
 .card{
-padding:30px 20px;
-background:linear-gradient(145deg,#271315,#130b0c);
-border:1px solid rgba(229,184,92,.25);
-border-radius:20px;
-text-align:center;
-transition:.3s
+  background:linear-gradient(145deg,#102544,#081327);
+  border:1px solid rgba(77,163,255,.2);
+  border-radius:22px;
+  padding:28px 20px;
+  text-align:center;
+  transition:.3s;
+  overflow:hidden;
 }
 
 .card:hover{
-transform:translateY(-8px);
-border-color:var(--gold)
+  transform:translateY(-8px);
+  border-color:#3f96ff;
+  box-shadow:0 15px 45px rgba(0,65,160,.22);
 }
 
 .money{
-font-size:48px;
-margin-bottom:10px
+  font-size:48px;
+  margin-bottom:5px;
 }
 
 .card h3{
-font-size:23px;
-color:var(--light)
+  font-size:23px;
+  color:#d9edff;
 }
 
 .card p{
-font-size:13px;
-color:#a99b94;
-margin:8px 0 20px
+  color:#8998b1;
+  font-size:13px;
+  margin:7px 0 18px;
 }
 
-.arrow{
-font-size:12px;
-font-weight:bold;
-color:var(--gold)
+.card .arrow{
+  color:#59aaff;
+  font-size:12px;
+  font-weight:900;
 }
 
-.features{
-background:
-linear-gradient(rgba(45,15,19,.94),rgba(45,15,19,.94)),
-radial-gradient(circle,#6c292d,#16090b)
+/* GALLERY */
+
+.gallery{
+  background:
+  radial-gradient(circle at 50% 0%,rgba(23,105,255,.18),transparent 35%),
+  #040a15;
+}
+
+.photo-card{
+  background:#09162b;
+  border:1px solid rgba(77,163,255,.25);
+  border-radius:22px;
+  overflow:hidden;
+}
+
+.photo-card img{
+  width:100%;
+  height:310px;
+  display:block;
+  object-fit:cover;
+}
+
+.photo-info{
+  padding:20px;
+}
+
+.photo-info h3{
+  color:#d9edff;
+  margin-bottom:5px;
+}
+
+.photo-info p{
+  color:#8998b1;
+  font-size:13px;
+}
+
+/* WHY */
+
+.why{
+  background:#071226;
 }
 
 .feature{
-padding:30px;
-border:1px solid rgba(255,255,255,.1);
-background:rgba(255,255,255,.04);
-border-radius:18px
+  padding:30px;
+  border-radius:20px;
+  background:rgba(255,255,255,.035);
+  border:1px solid rgba(77,163,255,.18);
+}
+
+.feature-icon{
+  font-size:34px;
+  margin-bottom:12px;
 }
 
 .feature h3{
-color:var(--light);
-margin-bottom:10px;
-font-size:22px
+  color:#d9edff;
+  margin-bottom:8px;
 }
 
-.feature p{color:#b9aaa2}
-
-.gallery{
-background:#090606
+.feature p{
+  color:#929fb5;
+  font-size:14px;
 }
 
-.photo{
-height:280px;
-border-radius:20px;
-border:1px solid rgba(229,184,92,.25);
-background:linear-gradient(145deg,#2a1517,#110909);
-display:flex;
-align-items:center;
-justify-content:center;
-text-align:center
-}
-
-.photo div{position:relative}
-
-.photo .icon{
-font-size:60px;
-margin-bottom:8px
-}
-
-.photo h3{color:var(--light)}
-.photo p{color:#968981;font-size:12px}
+/* STEPS */
 
 .steps{
-background:#130a0b
+  background:#040914;
 }
 
 .step{
-text-align:center;
-padding:20px
+  text-align:center;
+  padding:25px 18px;
 }
 
-.num{
-height:50px;
-width:50px;
-border-radius:50%;
-margin:0 auto 14px;
-display:flex;
-align-items:center;
-justify-content:center;
-background:linear-gradient(135deg,#b67e2e,#f3d17c);
-color:#160d07;
-font-weight:900
+.number{
+  width:52px;
+  height:52px;
+  margin:0 auto 15px;
+  border-radius:50%;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  background:linear-gradient(135deg,#1769ff,#4da3ff);
+  font-weight:900;
 }
 
 .step h3{
-color:var(--light);
-margin-bottom:6px
+  color:#d9edff;
 }
 
 .step p{
-font-size:13px;
-color:#a99b94
+  color:#8d9aaf;
+  font-size:13px;
 }
 
+/* OFFER */
+
 .offer{
-text-align:center;
-background:linear-gradient(135deg,#5c2429,#261014)
+  text-align:center;
+  background:
+  radial-gradient(circle at center,rgba(23,105,255,.32),transparent 60%),
+  linear-gradient(135deg,#07152d,#040914);
+  border-top:1px solid rgba(77,163,255,.18);
+  border-bottom:1px solid rgba(77,163,255,.18);
 }
 
 .offer h2{
-font-size:38px;
-margin:8px 0
+  font-size:40px;
+  margin:8px 0 12px;
 }
 
 .offer p{
-max-width:650px;
-margin:auto;
-color:#ddcec5
+  max-width:650px;
+  margin:auto;
+  color:#a9b7cb;
 }
 
+/* DELIVERY */
+
 .delivery{
-background:#0d0808
+  background:#060d1c;
 }
 
 .info{
-padding:25px;
-border-radius:16px;
-background:#1a0f10;
-border:1px solid rgba(229,184,92,.2)
+  padding:26px;
+  background:#0a1930;
+  border-radius:18px;
+  border:1px solid rgba(77,163,255,.17);
 }
 
 .info h3{
-color:var(--light);
-margin-bottom:8px
+  color:#d9edff;
+  margin-bottom:8px;
 }
 
 .info p{
-color:#aa9d96;
-font-size:13px
+  color:#8d9bb1;
+  font-size:13px;
 }
 
+/* CONTACT */
+
 .contact{
-text-align:center;
-background:
-radial-gradient(circle at center,#48201f,#0c0707 65%)
+  text-align:center;
+  background:
+  radial-gradient(circle at center,rgba(23,105,255,.27),transparent 58%),
+  #030815;
 }
 
 .contact-box{
-max-width:720px;
-margin:auto;
-padding:45px 25px;
-border-radius:24px;
-border:1px solid rgba(229,184,92,.3);
-background:rgba(255,255,255,.04)
+  max-width:760px;
+  margin:auto;
+  padding:48px 25px;
+  border-radius:25px;
+  border:1px solid rgba(77,163,255,.3);
+  background:rgba(255,255,255,.035);
 }
 
 .contact-box h2{
-font-size:40px;
-color:var(--light)
+  font-size:42px;
+  color:#ddecff;
+}
+
+.contact-box p{
+  color:#929fb4;
+  margin-top:10px;
 }
 
 .phone{
-display:block;
-font-size:20px;
-font-weight:bold;
-margin-top:12px
+  display:block;
+  margin-top:13px;
+  font-size:20px;
+  font-weight:800;
+  color:#65b0ff;
 }
 
 .note{
-font-size:12px;
-color:#8e817a;
-margin-top:15px
+  font-size:11px;
+  color:#707e94 !important;
 }
 
 footer{
-padding:28px;
-text-align:center;
-background:#050303;
-color:#827770;
-font-size:12px
+  padding:30px;
+  text-align:center;
+  background:#02050b;
+  color:#69778d;
+  font-size:12px;
 }
 
+/* MOBILE */
+
 @media(max-width:800px){
-nav{gap:10px}
-nav a{font-size:10px}
-h1{font-size:45px}
-.grid{grid-template-columns:repeat(2,1fr)}
+
+  header{
+    padding:14px 5%;
+  }
+
+  nav{
+    gap:12px;
+  }
+
+  nav a{
+    font-size:10px;
+  }
+
+  h1{
+    font-size:45px;
+  }
+
+  .grid{
+    grid-template-columns:repeat(2,1fr);
+  }
 }
 
 @media(max-width:520px){
-header{padding:14px 5%}
-.logo{font-size:19px}
-nav a{display:none}
-h1{font-size:38px}
-.hero p{font-size:15px}
-section{padding:70px 5%}
-.heading h2{font-size:31px}
-.grid{grid-template-columns:1fr}
+
+  nav a{
+    display:none;
+  }
+
+  .logo{
+    font-size:19px;
+  }
+
+  h1{
+    font-size:38px;
+  }
+
+  .hero p{
+    font-size:15px;
+  }
+
+  section{
+    padding:75px 5%;
+  }
+
+  .heading h2{
+    font-size:31px;
+  }
+
+  .grid{
+    grid-template-columns:1fr;
+  }
+
+  .photo-card img{
+    height:300px;
+  }
 }
 </style>
 </head>
 
 <body>
 
+<!-- NAVIGATION -->
+
 <header>
-<div class="logo">👑 Wedding Haar</div>
+
+<div class="logo">
+👑 Wedding <span>Haar</span>
+</div>
+
 <nav>
 <a href="#home">Home</a>
 <a href="#haar">Haar</a>
 <a href="#gallery">Gallery</a>
 <a href="#contact">Contact</a>
 </nav>
+
 </header>
 
+
+<!-- HERO -->
+
 <section class="hero" id="home">
+
 <div class="hero-content">
 
 <div class="crown">👑</div>
 
-<div class="badge">Premium Handmade Wedding Collection</div>
+<div class="badge">
+Premium Handmade Money Haar
+</div>
 
 <h1>
-Make Your Celebration<br>
-<span>Extra Special ✨</span>
+Shagun bhi...<br>
+<span>Style bhi ✨</span>
 </h1>
 
 <p>
-Beautiful handmade note haar for weddings, shagun,
-family functions and special celebrations.
+Beautiful handmade money haar for weddings, shagun,
+engagements, festivals and special celebrations.
 Choose your note value and contact us for your custom order.
 </p>
 
-<a class="btn gold" href="#haar">Explore Haar</a>
+<a class="btn blue" href="#haar">
+Explore Haar
+</a>
 
 <a class="btn green"
-href="https://wa.me/919317279089?text=Hello%20Wedding%20Haar,%20I%20want%20to%20know%20about%20your%20haar%20designs.">
+href="https://wa.me/919317279089?text=Hello%20Wedding%20Haar,%20I%20want%20to%20know%20about%20your%20haar.">
 WhatsApp Us
 </a>
 
 </div>
+
 </section>
 
 
-<section class="values" id="haar">
+<!-- HAAR OPTIONS -->
+
+<section class="haar" id="haar">
 
 <div class="heading">
+
 <small>OUR COLLECTION</small>
-<h2>Choose Your Haar</h2>
-<p>Tap your preferred note value to enquire directly on WhatsApp.</p>
+
+<h2>
+Choose Your Haar
+</h2>
+
+<p>
+Select your preferred note value and enquire directly.
+</p>
+
 </div>
+
 
 <div class="grid">
 
-<a class="card" href="https://wa.me/919317279089?text=Hello,%20I%20want%20a%20₹10%20note%20haar.%20Please%20share%20details.">
+
+<a class="card"
+href="https://wa.me/919317279089?text=Hello,%20I%20want%20a%20₹10%20note%20haar.%20Please%20share%20details.">
+
 <div class="money">💵</div>
+
 <h3>₹10 Haar</h3>
-<p>Traditional and beautiful choice.</p>
-<div class="arrow">ENQUIRE →</div>
+
+<p>
+Beautiful traditional design
+</p>
+
+<div class="arrow">
+ENQUIRE →
+</div>
+
 </a>
 
-<a class="card" href="https://wa.me/919317279089?text=Hello,%20I%20want%20a%20₹20%20note%20haar.%20Please%20share%20details.">
+
+<a class="card"
+href="https://wa.me/919317279089?text=Hello,%20I%20want%20a%20₹20%20note%20haar.%20Please%20share%20details.">
+
 <div class="money">💵</div>
+
 <h3>₹20 Haar</h3>
-<p>Custom handmade wedding design.</p>
-<div class="arrow">ENQUIRE →</div>
+
+<p>
+Elegant wedding collection
+</p>
+
+<div class="arrow">
+ENQUIRE →
+</div>
+
 </a>
 
-<a class="card" href="https://wa.me/919317279089?text=Hello,%20I%20want%20a%20₹50%20note%20haar.%20Please%20share%20details.">
+
+<a class="card"
+href="https://wa.me/919317279089?text=Hello,%20I%20want%20a%20₹50%20note%20haar.%20Please%20share%20details.">
+
 <div class="money">💵</div>
+
 <h3>₹50 Haar</h3>
-<p>Perfect for special celebrations.</p>
-<div class="arrow">ENQUIRE →</div>
+
+<p>
+Perfect for celebrations
+</p>
+
+<div class="arrow">
+ENQUIRE →
+</div>
+
 </a>
 
-<a class="card" href="https://wa.me/919317279089?text=Hello,%20I%20want%20a%20₹100%20note%20haar.%20Please%20share%20details.">
+
+<a class="card"
+href="https://wa.me/919317279089?text=Hello,%20I%20want%20a%20₹100%20note%20haar.%20Please%20share%20details.">
+
 <div class="money">💵</div>
+
 <h3>₹100 Haar</h3>
-<p>Premium wedding orders.</p>
-<div class="arrow">ENQUIRE →</div>
+
+<p>
+Premium wedding choice
+</p>
+
+<div class="arrow">
+ENQUIRE →
+</div>
+
 </a>
 
-<a class="card" href="https://wa.me/919317279089?text=Hello,%20I%20want%20a%20₹500%20note%20haar.%20Please%20share%20details.">
+
+<a class="card"
+href="https://wa.me/919317279089?text=Hello,%20I%20want%20a%20₹500%20note%20haar.%20Please%20share%20details.">
+
 <div class="money">💵</div>
+
 <h3>₹500 Haar</h3>
-<p>High-value custom haar.</p>
-<div class="arrow">ENQUIRE →</div>
+
+<p>
+Premium high-value design
+</p>
+
+<div class="arrow">
+ENQUIRE →
+</div>
+
 </a>
 
-<a class="card" href="https://wa.me/919317279089?text=Hello,%20I%20want%20a%20custom%20wedding%20haar.%20Please%20discuss%20my%20requirement.">
+
+<a class="card"
+href="https://wa.me/919317279089?text=Hello,%20I%20want%20a%20custom%20money%20haar.%20Please%20share%20details.">
+
 <div class="money">✨</div>
+
 <h3>Custom Haar</h3>
-<p>Your design, quantity and requirement.</p>
-<div class="arrow">CUSTOM ORDER →</div>
+
+<p>
+Your design & quantity
+</p>
+
+<div class="arrow">
+CUSTOM ORDER →
+</div>
+
 </a>
 
+
 </div>
+
 </section>
 
 
-<section class="features">
-
-<div class="heading">
-<small>WHY CHOOSE US</small>
-<h2>Made For Your Special Day</h2>
-<p>Discuss your requirement with us before confirming your order.</p>
-</div>
-
-<div class="grid">
-
-<div class="feature">
-<h3>🎨 Custom Design</h3>
-<p>Choose your note value, style, quantity and overall look.</p>
-</div>
-
-<div class="feature">
-<h3>💐 Wedding Special</h3>
-<p>Made for weddings, shagun, family functions and celebrations.</p>
-</div>
-
-<div class="feature">
-<h3>💬 Direct WhatsApp</h3>
-<p>Contact us directly and discuss your order before booking.</p>
-</div>
-
-<div class="feature">
-<h3>🚚 Local Delivery</h3>
-<p>Nearby home delivery may be available depending on location.</p>
-</div>
-
-</div>
-</section>
-
+<!-- GALLERY -->
 
 <section class="gallery" id="gallery">
 
 <div class="heading">
+
 <small>OUR WORK</small>
-<h2>Haar Gallery</h2>
-<p>Real product photos will be added here soon.</p>
+
+<h2>
+Money Haar Gallery
+</h2>
+
+<p>
+Explore our handmade wedding collection.
+</p>
+
 </div>
+
 
 <div class="grid">
 
-<div class="photo">
-<div>
-<div class="icon">💐</div>
-<h3>Wedding Collection</h3>
-<p>Photo coming soon</p>
-</div>
-</div>
+<div class="photo-card">
 
-<div class="photo">
-<div>
-<div class="icon">🌸</div>
-<h3>Custom Collection</h3>
-<p>Photo coming soon</p>
-</div>
-</div>
+<img src="money-haar.png" alt="Beautiful handmade money haar">
 
-<div class="photo">
-<div>
-<div class="icon">✨</div>
-<h3>Premium Collection</h3>
-<p>Photo coming soon</p>
-</div>
+<div class="photo-info">
+
+<h3>
+Wedding Money Haar
+</h3>
+
+<p>
+Beautiful handmade design for weddings and special occasions.
+</p>
+
 </div>
 
 </div>
+
+
+<div class="photo-card">
+
+<img src="money-haar.png" alt="Premium money haar design">
+
+<div class="photo-info">
+
+<h3>
+Premium Collection
+</h3>
+
+<p>
+Elegant designs made for memorable celebrations.
+</p>
+
+</div>
+
+</div>
+
+
+<div class="photo-card">
+
+<img src="money-haar.png" alt="Custom wedding money haar">
+
+<div class="photo-info">
+
+<h3>
+Custom Haar
+</h3>
+
+<p>
+Custom designs available according to your requirement.
+</p>
+
+</div>
+
+</div>
+
+</div>
+
 </section>
 
+
+<!-- WHY CHOOSE -->
+
+<section class="why">
+
+<div class="heading">
+
+<small>WHY CHOOSE US</small>
+
+<h2>
+Made For Your Special Moments
+</h2>
+
+</div>
+
+
+<div class="grid">
+
+<div class="feature">
+
+<div class="feature-icon">
+✨
+</div>
+
+<h3>
+Beautiful Designs
+</h3>
+
+<p>
+Carefully designed money haar for weddings and celebrations.
+</p>
+
+</div>
+
+
+<div class="feature">
+
+<div class="feature-icon">
+🎨
+</div>
+
+<h3>
+Custom Orders
+</h3>
+
+<p>
+Choose your note value, quantity and preferred style.
+</p>
+
+</div>
+
+
+<div class="feature">
+
+<div class="feature-icon">
+💬
+</div>
+
+<h3>
+Direct WhatsApp
+</h3>
+
+<p>
+Talk directly with us about your order and requirements.
+</p>
+
+</div>
+
+
+<div class="feature">
+
+<div class="feature-icon">
+🚚
+</div>
+
+<h3>
+Local Delivery
+</h3>
+
+<p>
+Nearby home delivery may be available depending on location.
+</p>
+
+</div>
+
+</div>
+
+</section>
+
+
+<!-- HOW IT WORKS -->
 
 <section class="steps">
 
 <div class="heading">
+
 <small>HOW IT WORKS</small>
-<h2>Order In 4 Simple Steps</h2>
+
+<h2>
+Order In 4 Simple Steps
+</h2>
+
 </div>
+
 
 <div class="grid">
 
 <div class="step">
-<div class="num">1</div>
-<h3>Choose</h3>
-<p>Select your note value.</p>
+
+<div class="number">
+1
 </div>
+
+<h3>
+Choose
+</h3>
+
+<p>
+Select your note value.
+</p>
+
+</div>
+
 
 <div class="step">
-<div class="num">2</div>
-<h3>Discuss</h3>
-<p>Tell us your design and quantity.</p>
+
+<div class="number">
+2
 </div>
+
+<h3>
+Discuss
+</h3>
+
+<p>
+Tell us your design and quantity.
+</p>
+
+</div>
+
 
 <div class="step">
-<div class="num">3</div>
-<h3>Confirm</h3>
-<p>Price and payment terms are discussed.</p>
+
+<div class="number">
+3
 </div>
+
+<h3>
+Confirm
+</h3>
+
+<p>
+Discuss price and payment terms.
+</p>
+
+</div>
+
 
 <div class="step">
-<div class="num">4</div>
-<h3>Receive</h3>
-<p>Your haar is prepared for your occasion.</p>
+
+<div class="number">
+4
+</div>
+
+<h3>
+Receive
+</h3>
+
+<p>
+Get your haar for your special day.
+</p>
+
 </div>
 
 </div>
+
 </section>
 
 
+<!-- OFFER -->
+
 <section class="offer">
 
-<small>SEASONAL SPECIAL</small>
+<small>
+WEDDING & FESTIVE SPECIAL
+</small>
 
-<h2>🎉 Wedding & Festival Offers</h2>
+<h2>
+🎉 Special Season Offers
+</h2>
 
 <p>
-Special offers may be available during wedding and festive seasons.
+Wedding and festive season discounts may be available.
 Contact us to know the current offer.
 </p>
 
-<a class="btn gold"
+<a class="btn blue"
 href="https://wa.me/919317279089?text=Hello%20Wedding%20Haar,%20please%20tell%20me%20about%20your%20current%20offer.">
 Check Offer
 </a>
@@ -605,91 +979,148 @@ Check Offer
 </section>
 
 
+<!-- DELIVERY -->
+
 <section class="delivery">
 
 <div class="heading">
-<small>ORDER INFORMATION</small>
-<h2>Delivery & Payment</h2>
+
+<small>
+ORDER INFORMATION
+</small>
+
+<h2>
+Delivery & Payment
+</h2>
+
 </div>
+
 
 <div class="grid">
 
 <div class="info">
-<h3>📍 Service Areas</h3>
+
+<h3>
+📍 Service Areas
+</h3>
+
 <p>
-Orders are welcome from Hamirpur, Kangra and surrounding areas.
-Contact us with your location to discuss delivery.
+Orders welcome from Hamirpur, Kangra and surrounding areas.
+Send us your location to discuss delivery.
 </p>
+
 </div>
+
 
 <div class="info">
-<h3>🚚 Home Delivery</h3>
+
+<h3>
+🚚 Home Delivery
+</h3>
+
 <p>
-Nearby home delivery may be available. Charges depend on location.
+Nearby home delivery may be available.
+Charges depend on location.
 </p>
+
 </div>
+
 
 <div class="info">
-<h3>💳 Payment</h3>
+
+<h3>
+💳 Payment
+</h3>
+
 <p>
-Payment terms depend on the order. High-value custom orders may require advance payment.
+Payment terms depend on the order.
+Custom/high-value orders may require advance payment.
 </p>
+
 </div>
+
 
 <div class="info">
-<h3>💰 Get A Quote</h3>
+
+<h3>
+💰 Get A Quote
+</h3>
+
 <p>
-Send your note value, quantity and design requirement for a quotation.
+Send note value, quantity and design requirement for a quotation.
 </p>
+
 </div>
 
 </div>
+
 </section>
 
+
+<!-- CONTACT -->
 
 <section class="contact" id="contact">
 
 <div class="contact-box">
 
-<small>CONTACT US</small>
+<small>
+CONTACT US
+</small>
 
-<h2>Ready To Order?</h2>
+<h2>
+Ready To Order?
+</h2>
 
-<p style="color:#b7aaa2;margin-top:12px">
+<p>
 Tell us your requirement and let's create your special haar.
 </p>
 
-<a class="phone" href="tel:+919317279089">
+
+<a class="phone"
+href="tel:+919317279089">
 📱 9317279089
 </a>
 
-<p class="note">WhatsApp + Call</p>
+<p class="note">
+WhatsApp + Call
+</p>
 
-<a class="phone" href="tel:+919805300589">
+
+<a class="phone"
+href="tel:+919805300589">
 ☎️ 9805300589
 </a>
 
-<p class="note">Call</p>
+<p class="note">
+Call
+</p>
+
 
 <a class="btn green"
 href="https://wa.me/919317279089?text=Hello%20Wedding%20Haar,%20I%20want%20to%20place%20an%20order.">
 💬 WhatsApp Order
 </a>
 
-<a class="btn gold" href="tel:+919317279089">
+
+<a class="btn blue"
+href="tel:+919317279089">
 📞 Call Now
 </a>
+
 
 <p class="note">
 Final price depends on note value, design, quantity and customization.
 </p>
 
 </div>
+
 </section>
 
 
 <footer>
+
 © 2026 Wedding Haar • Handmade With Care
+
 </footer>
 
 </body>
