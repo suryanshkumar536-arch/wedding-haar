@@ -4,11 +4,9 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<meta name="google-site-verification" content="Q9GJrRFO3PnR3G-eY5ulf4MrLBIVKN7MHMpRbhNJy7Y">
+<title>Royal Wedding Haar | Handmade Wedding Haar</title>
 
-<title>Wedding Haar | Premium Handmade Money Haar</title>
-
-<meta name="description" content="Premium handmade wedding money haar for weddings, engagements, shagun and special celebrations. Explore our collection and order on WhatsApp.">
+<meta name="description" content="Beautiful handcrafted wedding haar for weddings, shagun, engagements and special occasions. Order directly on WhatsApp.">
 
 <style>
 *{
@@ -30,95 +28,69 @@ body{
 
 :root{
   --blue:#1677ff;
-  --blue2:#4eb4ff;
-  --deep:#020817;
-  --deep2:#061630;
-  --card:#0a1c39;
-  --white:#f5f9ff;
-  --muted:#91a2ba;
-  --line:rgba(80,170,255,.20);
-  --gold:#f5ca68;
-  --green:#19c96b;
+  --blue2:#52baff;
+  --dark:#020817;
+  --dark2:#061832;
+  --card:#0a1d3b;
+  --text:#f5f9ff;
+  --muted:#91a4bd;
+  --line:rgba(80,175,255,.20);
+  --green:#16c76a;
 }
 
 a{
-  color:inherit;
   text-decoration:none;
+  color:inherit;
 }
 
-button{
-  font-family:inherit;
+section{
+  padding:100px 6%;
 }
 
-/* ---------- BACKGROUND ---------- */
-
-body:before{
-  content:"";
-  position:fixed;
-  width:450px;
-  height:450px;
-  left:-250px;
-  top:100px;
-  border-radius:50%;
-  background:rgba(20,110,255,.10);
-  filter:blur(90px);
-  pointer-events:none;
-  z-index:-1;
+.container{
+  max-width:1200px;
+  margin:auto;
 }
 
-body:after{
-  content:"";
-  position:fixed;
-  width:450px;
-  height:450px;
-  right:-250px;
-  bottom:100px;
-  border-radius:50%;
-  background:rgba(30,150,255,.08);
-  filter:blur(90px);
-  pointer-events:none;
-  z-index:-1;
-}
-
-/* ---------- NAVBAR ---------- */
+/* NAVBAR */
 
 .navbar{
   position:fixed;
   top:0;
   left:0;
   width:100%;
-  z-index:1000;
-  padding:15px 6%;
-  background:rgba(2,8,22,.78);
-  backdrop-filter:blur(20px);
-  border-bottom:1px solid rgba(80,170,255,.15);
+  z-index:999;
+  padding:14px 6%;
+  background:rgba(2,8,23,.86);
+  backdrop-filter:blur(18px);
+  border-bottom:1px solid var(--line);
 }
 
 .nav-inner{
-  max-width:1250px;
+  max-width:1200px;
   margin:auto;
   display:flex;
-  align-items:center;
   justify-content:space-between;
+  align-items:center;
 }
 
 .logo{
   display:flex;
   align-items:center;
   gap:9px;
-  font-size:21px;
+  font-size:20px;
   font-weight:900;
 }
 
 .logo-icon{
-  width:39px;
-  height:39px;
+  width:40px;
+  height:40px;
   border-radius:12px;
   display:flex;
   align-items:center;
   justify-content:center;
-  background:linear-gradient(135deg,#0d63ed,#51b8ff);
-  box-shadow:0 7px 25px rgba(22,119,255,.30);
+  background:linear-gradient(135deg,#1168f5,#55baff);
+  box-shadow:0 8px 25px rgba(22,119,255,.3);
 }
 
 .logo span{
@@ -127,162 +99,149 @@ body:after{
 
 .nav-links{
   display:flex;
-  gap:27px;
+  gap:24px;
   align-items:center;
 }
 
 .nav-links a{
-  color:#b9c9de;
+  color:#b8c9df;
   font-size:13px;
   font-weight:700;
   transition:.3s;
 }
 
 .nav-links a:hover{
-  color:#55b6ff;
+  color:var(--blue2);
 }
 
-.nav-order{
-  padding:10px 17px;
+.order-btn{
+  background:linear-gradient(135deg,#1268f5,#55baff);
+  color:#fff!important;
+  padding:10px 16px;
   border-radius:9px;
-  background:linear-gradient(135deg,#1268f5,#53b6ff);
-  color:white !important;
 }
 
-/* ---------- HERO ---------- */
+/* HERO */
 
 .hero{
   min-height:100vh;
   padding:150px 6% 90px;
-  position:relative;
-  overflow:hidden;
   display:flex;
   align-items:center;
+  position:relative;
+  overflow:hidden;
 }
 
-.hero-bg{
+.hero:before{
+  content:"";
   position:absolute;
-  inset:0;
-  background:
-    radial-gradient(circle at 75% 30%,rgba(21,112,255,.23),transparent 30%),
-    radial-gradient(circle at 20% 80%,rgba(49,156,255,.12),transparent 28%),
-    linear-gradient(135deg,#020611,#061a39 55%,#020817);
-  z-index:-2;
+  width:500px;
+  height:500px;
+  right:-150px;
+  top:80px;
+  border-radius:50%;
+  background:rgba(22,119,255,.18);
+  filter:blur(100px);
 }
 
-.hero-lines{
+.hero:after{
+  content:"";
   position:absolute;
-  inset:0;
-  opacity:.16;
-  background-image:
-    linear-gradient(rgba(90,180,255,.12) 1px,transparent 1px),
-    linear-gradient(90deg,rgba(90,180,255,.12) 1px,transparent 1px);
-  background-size:55px 55px;
-  mask-image:linear-gradient(to bottom,#000,transparent);
-  z-index:-1;
+  width:400px;
+  height:400px;
+  left:-200px;
+  bottom:0;
+  border-radius:50%;
+  background:rgba(35,140,255,.10);
+  filter:blur(100px);
 }
 
 .hero-inner{
   width:100%;
-  max-width:1250px;
+  max-width:1200px;
   margin:auto;
   display:grid;
-  grid-template-columns:1.05fr .95fr;
+  grid-template-columns:1fr 1fr;
   gap:60px;
   align-items:center;
+  position:relative;
+  z-index:2;
 }
 
-.hero-badge{
-  display:inline-flex;
-  align-items:center;
-  gap:8px;
+.badge{
+  display:inline-block;
   padding:9px 15px;
+  border:1px solid rgba(82,186,255,.35);
+  background:rgba(35,130,255,.08);
   border-radius:50px;
-  border:1px solid rgba(82,180,255,.35);
-  background:rgba(40,130,255,.08);
-  color:#a9dcff;
+  color:#a9ddff;
   font-size:11px;
-  letter-spacing:2px;
   font-weight:800;
-  text-transform:uppercase;
-  margin-bottom:23px;
+  letter-spacing:2px;
+  margin-bottom:22px;
 }
 
 .hero h1{
-  font-size:clamp(46px,6vw,76px);
+  font-size:clamp(48px,6vw,76px);
   line-height:1.02;
   letter-spacing:-3px;
-  margin-bottom:23px;
+  margin-bottom:22px;
 }
 
-.hero h1 .blue-text{
-  color:#4db4ff;
+.blue{
+  color:var(--blue2);
 }
 
 .hero-text{
-  max-width:610px;
-  color:#9eafc6;
+  color:var(--muted);
   font-size:17px;
   line-height:1.8;
+  max-width:600px;
 }
 
-.hero-buttons{
-  margin-top:31px;
+.buttons{
   display:flex;
-  gap:12px;
   flex-wrap:wrap;
+  gap:12px;
+  margin-top:30px;
 }
 
 .btn{
   display:inline-flex;
-  align-items:center;
   justify-content:center;
-  gap:8px;
+  align-items:center;
   padding:14px 21px;
   border-radius:11px;
   font-size:13px;
   font-weight:800;
-  border:1px solid transparent;
   transition:.3s;
 }
 
 .btn:hover{
-  transform:translateY(-4px);
+  transform:translateY(-3px);
 }
 
 .btn-blue{
   background:linear-gradient(135deg,#1067f5,#55baff);
-  box-shadow:0 12px 35px rgba(22,119,255,.24);
+  box-shadow:0 12px 30px rgba(22,119,255,.25);
 }
 
 .btn-green{
-  background:#16c76a;
-  box-shadow:0 12px 30px rgba(22,199,106,.16);
+  background:var(--green);
+  box-shadow:0 12px 30px rgba(22,199,106,.15);
 }
 
 .btn-outline{
-  border-color:rgba(83,180,255,.45);
-  color:#bce4ff;
-  background:rgba(255,255,255,.025);
+  border:1px solid rgba(82,186,255,.4);
+  color:#c4eaff;
 }
-
-/* HERO VISUAL */
 
 .hero-visual{
-  position:relative;
   min-height:500px;
   display:flex;
-  justify-content:center;
   align-items:center;
-}
-
-.orb{
-  position:absolute;
-  width:390px;
-  height:390px;
-  border-radius:50%;
-  background:radial-gradient(circle,rgba(29,130,255,.30),rgba(12,66,150,.07),transparent 70%);
-  filter:blur(3px);
+  justify-content:center;
+  position:relative;
 }
 
 .hero-photo{
@@ -290,94 +249,80 @@ body:after{
   height:450px;
   object-fit:cover;
   border-radius:30px;
-  position:relative;
-  z-index:2;
-  border:1px solid rgba(100,190,255,.35);
-  box-shadow:
-    0 30px 90px rgba(0,0,0,.50),
-    0 0 50px rgba(25,125,255,.16);
+  border:1px solid rgba(90,190,255,.35);
+  box-shadow:0 30px 90px rgba(0,0,0,.55);
   transform:rotate(2deg);
   transition:.5s;
+  position:relative;
+  z-index:2;
 }
 
 .hero-photo:hover{
-  transform:rotate(0deg) scale(1.02);
+  transform:rotate(0) scale(1.02);
 }
 
-.floating-card{
+.float{
   position:absolute;
   z-index:3;
-  background:rgba(5,17,38,.90);
+  padding:14px 17px;
+  border-radius:15px;
+  background:rgba(5,18,40,.92);
   border:1px solid rgba(88,183,255,.28);
-  backdrop-filter:blur(15px);
-  border-radius:16px;
-  padding:15px 18px;
   box-shadow:0 20px 45px rgba(0,0,0,.35);
+}
+
+.float small{
+  display:block;
+  color:#8195b1;
+  font-size:9px;
+  margin-bottom:4px;
+}
+
+.float strong{
+  font-size:14px;
 }
 
 .float-one{
   left:0;
-  top:65px;
+  top:60px;
 }
 
 .float-two{
   right:0;
-  bottom:70px;
+  bottom:65px;
 }
 
-.floating-card small{
-  display:block;
-  color:#8195b1;
-  font-size:10px;
-  margin-bottom:4px;
-}
+/* HEADINGS */
 
-.floating-card strong{
-  font-size:16px;
-  color:#eaf6ff;
-}
-
-/* ---------- GENERAL ---------- */
-
-section{
-  padding:105px 6%;
-}
-
-.container{
-  max-width:1250px;
-  margin:auto;
-}
-
-.section-heading{
-  max-width:720px;
-  margin:0 auto 55px;
+.heading{
   text-align:center;
+  max-width:700px;
+  margin:0 auto 50px;
 }
 
-.section-heading .eyebrow{
-  color:#4eb4ff;
+.heading span{
+  color:var(--blue2);
   font-size:11px;
   letter-spacing:3px;
   font-weight:900;
 }
 
-.section-heading h2{
+.heading h2{
   font-size:42px;
-  line-height:1.15;
-  margin:10px 0 13px;
-  letter-spacing:-1px;
+  margin:10px 0 12px;
 }
 
-.section-heading p{
+.heading p{
   color:var(--muted);
-  font-size:15px;
+  font-size:14px;
+  line-height:1.7;
 }
 
-/* ---------- STATS ---------- */
+/* STATS */
 
 .stats{
-  padding:0 6% 70px;
-  margin-top:-15px;
+  padding:0 6% 75px;
+  margin-top:-10px;
 }
 
 .stats-grid{
@@ -385,11 +330,10 @@ section{
   margin:auto;
   display:grid;
   grid-template-columns:repeat(4,1fr);
-  background:rgba(8,27,56,.65);
+  background:rgba(8,28,58,.7);
   border:1px solid var(--line);
   border-radius:20px;
   overflow:hidden;
-  backdrop-filter:blur(12px);
 }
 
 .stat{
@@ -399,26 +343,25 @@ section{
 }
 
 .stat:last-child{
-  border-right:0;
+  border:0;
 }
 
 .stat strong{
   display:block;
   font-size:25px;
-  color:#eaf5ff;
 }
 
-.stat span{
-  color:#788ba7;
-  font-size:11px;
+.stat small{
+  color:#7e91aa;
+  font-size:10px;
 }
 
-/* ---------- COLLECTION ---------- */
+/* HAAR */
 
 .collection{
   background:
-    radial-gradient(circle at 50% 0%,rgba(22,119,255,.13),transparent 35%),
-    #030a18;
+  radial-gradient(circle at 50% 0,rgba(22,119,255,.14),transparent 35%),
+  #030a18;
 }
 
 .haar-grid{
@@ -428,70 +371,53 @@ section{
 }
 
 .haar-card{
-  position:relative;
-  padding:30px;
-  min-height:250px;
-  border-radius:23px;
-  background:
-    linear-gradient(145deg,rgba(13,39,77,.92),rgba(5,18,39,.94));
+  padding:28px;
+  border-radius:22px;
+  background:linear-gradient(145deg,#0d294f,#05162f);
   border:1px solid var(--line);
-  overflow:hidden;
   transition:.35s;
 }
 
-.haar-card:before{
-  content:"";
-  position:absolute;
-  width:150px;
-  height:150px;
-  right:-70px;
-  top:-70px;
-  border-radius:50%;
-  background:rgba(40,145,255,.13);
-}
-
 .haar-card:hover{
-  transform:translateY(-8px);
-  border-color:rgba(78,180,255,.55);
-  box-shadow:0 22px 55px rgba(0,65,150,.22);
+  transform:translateY(-7px);
+  border-color:rgba(80,185,255,.55);
+  box-shadow:0 20px 50px rgba(0,70,160,.2);
 }
 
 .haar-icon{
-  font-size:37px;
+  font-size:35px;
   margin-bottom:14px;
 }
 
 .haar-card h3{
-  font-size:23px;
-  margin-bottom:7px;
+  font-size:22px;
+  margin-bottom:8px;
 }
 
 .haar-card p{
-  color:#8799b2;
+  color:#879ab3;
   font-size:13px;
-  max-width:270px;
+  line-height:1.6;
 }
 
 .haar-bottom{
   display:flex;
   justify-content:space-between;
-  align-items:center;
   margin-top:22px;
 }
 
-.price-label{
-  color:#4eb4ff;
-  font-weight:800;
+.price{
+  color:var(--blue2);
   font-size:12px;
+  font-weight:900;
 }
 
 .enquire{
-  color:#d9efff;
   font-size:11px;
   font-weight:900;
 }
 
-/* ---------- GALLERY ---------- */
+/* GALLERY */
 
 .gallery{
   background:#020817;
@@ -508,75 +434,63 @@ section{
   overflow:hidden;
   border-radius:22px;
   border:1px solid var(--line);
-  background:#07162e;
+  min-height:320px;
   cursor:pointer;
-  min-height:310px;
 }
 
-.gallery-item:nth-child(1){
-  grid-column:span 7;
-}
-
-.gallery-item:nth-child(2){
-  grid-column:span 5;
-}
-
-.gallery-item:nth-child(3){
-  grid-column:span 5;
-}
-
+.gallery-item:nth-child(1),
 .gallery-item:nth-child(4){
   grid-column:span 7;
+}
+
+.gallery-item:nth-child(2),
+.gallery-item:nth-child(3){
+  grid-column:span 5;
 }
 
 .gallery-item img{
   width:100%;
   height:100%;
-  min-height:310px;
+  min-height:320px;
   object-fit:cover;
   display:block;
-  transition:.55s;
-}
-
-.gallery-overlay{
-  position:absolute;
-  inset:0;
-  display:flex;
-  align-items:flex-end;
-  padding:24px;
-  background:linear-gradient(transparent 45%,rgba(0,5,15,.85));
-  opacity:.9;
-}
-
-.gallery-overlay div{
-  width:100%;
-}
-
-.gallery-overlay h3{
-  font-size:20px;
-}
-
-.gallery-overlay p{
-  color:#b0bfd2;
-  font-size:12px;
+  transition:.5s;
 }
 
 .gallery-item:hover img{
   transform:scale(1.08);
 }
 
-/* ---------- LIGHTBOX ---------- */
+.overlay{
+  position:absolute;
+  inset:0;
+  display:flex;
+  align-items:flex-end;
+  padding:23px;
+  background:linear-gradient(transparent 40%,rgba(0,4,14,.85));
+}
+
+.overlay h3{
+  font-size:19px;
+}
+
+.overlay p{
+  color:#b1c0d4;
+  font-size:11px;
+  margin-top:4px;
+}
+
+/* LIGHTBOX */
 
 .lightbox{
   position:fixed;
   inset:0;
-  z-index:3000;
-  background:rgba(0,4,12,.93);
-  backdrop-filter:blur(15px);
+  z-index:2000;
+  background:rgba(0,3,10,.94);
   display:none;
   align-items:center;
   justify-content:center;
-  padding:25px;
+  padding:20px;
 }
 
 .lightbox.active{
@@ -584,62 +498,46 @@ section{
 }
 
 .lightbox img{
-  max-width:min(900px,95vw);
+  max-width:94vw;
   max-height:88vh;
   border-radius:18px;
-  border:1px solid rgba(90,185,255,.4);
-  box-shadow:0 30px 100px rgba(0,0,0,.7);
 }
 
-.close-lightbox{
+.close{
   position:absolute;
-  top:25px;
-  right:30px;
+  top:22px;
+  right:25px;
   width:45px;
   height:45px;
-  border:1px solid rgba(255,255,255,.2);
   border-radius:50%;
-  background:rgba(0,0,0,.4);
-  color:#fff;
+  border:1px solid rgba(255,255,255,.2);
+  background:#111;
+  color:white;
   font-size:25px;
-  cursor:pointer;
 }
 
-/* ---------- WHY ---------- */
+/* WHY */
 
 .why{
-  background:#05132a;
+  background:#05142c;
 }
 
-.feature-grid{
+.features{
   display:grid;
   grid-template-columns:repeat(4,1fr);
   gap:18px;
 }
 
 .feature{
-  padding:29px 24px;
+  padding:28px 23px;
   border-radius:20px;
-  border:1px solid var(--line);
   background:rgba(255,255,255,.025);
-  transition:.3s;
-}
-
-.feature:hover{
-  transform:translateY(-5px);
-  background:rgba(42,137,255,.06);
+  border:1px solid var(--line);
 }
 
 .feature-icon{
-  width:50px;
-  height:50px;
-  border-radius:14px;
-  display:flex;
-  align-items:center;
-  justify-content:center;
-  background:rgba(37,137,255,.12);
-  font-size:24px;
-  margin-bottom:17px;
+  font-size:25px;
+  margin-bottom:15px;
 }
 
 .feature h3{
@@ -648,11 +546,12 @@ section{
 }
 
 .feature p{
-  color:#8294ad;
+  color:#8497b0;
   font-size:13px;
+  line-height:1.6;
 }
 
-/* ---------- PROCESS ---------- */
+/* PROCESS */
 
 .process{
   background:#020817;
@@ -662,7 +561,6 @@ section{
   display:grid;
   grid-template-columns:repeat(4,1fr);
   gap:20px;
-  position:relative;
 }
 
 .process-card{
@@ -670,44 +568,44 @@ section{
   padding:20px;
 }
 
-.step-number{
+.number{
   width:58px;
   height:58px;
-  margin:0 auto 19px;
+  margin:auto auto 18px;
+  border-radius:50%;
   display:flex;
   align-items:center;
   justify-content:center;
-  border-radius:50%;
   background:linear-gradient(135deg,#1169f4,#55b7ff);
-  font-size:20px;
   font-weight:900;
-  box-shadow:0 12px 30px rgba(20,115,255,.2);
+  font-size:20px;
 }
 
 .process-card h3{
-  margin-bottom:7px;
+  margin-bottom:8px;
 }
 
 .process-card p{
   color:#8193ac;
   font-size:13px;
+  line-height:1.6;
 }
 
-/* ---------- CUSTOM ORDER ---------- */
+/* CUSTOM */
 
 .custom{
   background:
-    radial-gradient(circle at 50% 50%,rgba(18,112,255,.22),transparent 55%),
+    radial-gradient(circle at center,rgba(18,112,255,.22),transparent 55%),
     #041126;
 }
 
 .custom-box{
-  max-width:1000px;
+  max-width:950px;
   margin:auto;
-  padding:55px;
+  padding:55px 30px;
   border-radius:30px;
   border:1px solid rgba(77,176,255,.28);
-  background:linear-gradient(135deg,rgba(14,43,82,.78),rgba(3,15,34,.85));
+  background:rgba(8,27,56,.75);
   text-align:center;
 }
 
@@ -720,45 +618,13 @@ section{
   max-width:650px;
   margin:auto;
   color:#92a5bf;
+  line-height:1.7;
 }
 
-/* ---------- SERVICE ---------- */
-
-.service{
-  background:#020817;
-}
-
-.service-grid{
-  display:grid;
-  grid-template-columns:repeat(3,1fr);
-  gap:20px;
-}
-
-.service-card{
-  padding:30px;
-  border-radius:20px;
-  background:#071832;
-  border:1px solid var(--line);
-}
-
-.service-card .big{
-  font-size:34px;
-  margin-bottom:12px;
-}
-
-.service-card h3{
-  margin-bottom:8px;
-}
-
-.service-card p{
-  color:#8496ae;
-  font-size:13px;
-}
-
-/* ---------- FAQ ---------- */
+/* FAQ */
 
 .faq{
-  background:#041126;
+  background:#020817;
 }
 
 .faq-wrap{
@@ -768,25 +634,25 @@ section{
 
 details{
   margin-bottom:12px;
+  padding:19px 21px;
   background:#071832;
   border:1px solid var(--line);
   border-radius:15px;
-  padding:19px 21px;
 }
 
 summary{
   cursor:pointer;
   font-weight:800;
-  color:#dcecff;
 }
 
 details p{
+  padding-top:12px;
   color:#8497b0;
   font-size:13px;
-  padding-top:12px;
+  line-height:1.6;
 }
 
-/* ---------- CONTACT ---------- */
+/* CONTACT */
 
 .contact{
   background:
@@ -797,50 +663,36 @@ details p{
 .contact-box{
   max-width:900px;
   margin:auto;
-  padding:60px 35px;
+  padding:60px 30px;
   text-align:center;
   border-radius:30px;
+  background:rgba(8,27,56,.7);
   border:1px solid rgba(80,177,255,.3);
-  background:rgba(8,27,56,.68);
 }
 
 .contact-box h2{
-  font-size:44px;
-  margin:8px 0 13px;
+  font-size:42px;
+  margin:10px 0;
 }
 
 .contact-box p{
   color:#91a3bc;
 }
 
-.contact-number{
-  display:block;
-  margin:20px 0 4px;
-  font-size:22px;
-  font-weight:900;
-  color:#58b6ff;
-}
-
 .contact-buttons{
-  margin-top:24px;
   display:flex;
   justify-content:center;
-  gap:12px;
   flex-wrap:wrap;
-}
-
-.contact-note{
+  gap:12px;
   margin-top:25px;
-  font-size:11px;
-  color:#65758d !important;
 }
 
-/* ---------- FOOTER ---------- */
+/* FOOTER */
 
 footer{
   padding:45px 6% 25px;
   background:#01050c;
-  border-top:1px solid rgba(80,170,255,.12);
+  border-top:1px solid var(--line);
 }
 
 .footer-grid{
@@ -849,19 +701,19 @@ footer{
   display:grid;
   grid-template-columns:2fr 1fr 1fr;
   gap:40px;
-  padding-bottom:35px;
+  padding-bottom:30px;
 }
 
 .footer-brand p{
-  max-width:370px;
   color:#6f819a;
   font-size:13px;
-  margin-top:12px;
+  margin-top:10px;
+  max-width:380px;
+  line-height:1.6;
 }
 
 .footer-col h4{
-  margin-bottom:14px;
-  color:#dcecff;
+  margin-bottom:13px;
 }
 
 .footer-col a{
@@ -882,15 +734,15 @@ footer{
   font-size:11px;
 }
 
-/* ---------- MOBILE ---------- */
+/* MOBILE */
 
 @media(max-width:900px){
 
   .nav-links{
-    gap:13px;
+    gap:8px;
   }
 
-  .nav-links a:not(.nav-order){
+  .nav-links a:not(.order-btn){
     display:none;
   }
 
@@ -903,15 +755,11 @@ footer{
     margin:auto;
   }
 
-  .hero-buttons{
+  .buttons{
     justify-content:center;
   }
 
-  .hero-visual{
-    min-height:440px;
-  }
-
-  .feature-grid{
+  .features{
     grid-template-columns:repeat(2,1fr);
   }
 
@@ -935,11 +783,11 @@ footer{
 @media(max-width:650px){
 
   section{
-    padding:78px 5%;
+    padding:75px 5%;
   }
 
   .hero{
-    padding:125px 5% 65px;
+    padding:125px 5% 60px;
   }
 
   .hero h1{
@@ -952,8 +800,8 @@ footer{
   }
 
   .hero-photo{
+    height:380px;
     width:84%;
-    height:390px;
   }
 
   .hero-visual{
@@ -962,29 +810,20 @@ footer{
 
   .float-one{
     left:0;
-    top:45px;
+    top:40px;
   }
 
   .float-two{
     right:0;
-    bottom:45px;
+    bottom:40px;
   }
 
-  .section-heading h2{
+  .heading h2{
     font-size:31px;
   }
 
-  .stats{
-    padding:0 5% 55px;
-  }
-
-  .stats-grid{
-    grid-template-columns:repeat(2,1fr);
-  }
-
   .haar-grid,
-  .feature-grid,
-  .service-grid{
+  .features{
     grid-template-columns:1fr;
   }
 
@@ -993,7 +832,6 @@ footer{
   }
 
   .gallery-grid{
-    display:grid;
     grid-template-columns:1fr;
   }
 
@@ -1006,17 +844,13 @@ footer{
 
   .gallery-item,
   .gallery-item img{
-    min-height:330px;
-    height:330px;
-  }
-
-  .custom-box{
-    padding:40px 20px;
+    min-height:320px;
+    height:320px;
   }
 
   .custom-box h2,
   .contact-box h2{
-    font-size:32px;
+    font-size:31px;
   }
 
   .footer-grid{
@@ -1036,9 +870,9 @@ footer{
     font-size:17px;
   }
 
-  .nav-order{
-    padding:8px 12px;
-    font-size:11px !important;
+  .order-btn{
+    padding:8px 11px;
+    font-size:11px!important;
   }
 
   .hero h1{
@@ -1049,14 +883,6 @@ footer{
     height:350px;
   }
 
-  .floating-card{
-    padding:11px 13px;
-  }
-
-  .floating-card strong{
-    font-size:13px;
-  }
-
   .process-grid{
     grid-template-columns:1fr;
   }
@@ -1065,8 +891,6 @@ footer{
 </head>
 
 <body>
-
-<!-- ================= NAVBAR ================= -->
 
 <header class="navbar">
 <div class="nav-inner">
@@ -1082,48 +906,41 @@ footer{
 <a href="#gallery">Gallery</a>
 <a href="#why">Why Us</a>
 <a href="#process">How It Works</a>
-<a href="#contact" class="nav-order">Order Now</a>
+<a href="#contact" class="order-btn">Order Now</a>
 </nav>
 
 </div>
 </header>
 
 
-<!-- ================= HERO ================= -->
-
 <section class="hero" id="home">
-
-<div class="hero-bg"></div>
-<div class="hero-lines"></div>
 
 <div class="hero-inner">
 
 <div>
 
-<div class="hero-badge">
+<div class="badge">
 ✨ PREMIUM HANDMADE COLLECTION
 </div>
 
 <h1>
 Shagun bhi.<br>
-<span class="blue-text">Style bhi.</span>
+<span class="blue">Style bhi.</span>
 </h1>
 
 <p class="hero-text">
-Beautiful handcrafted money haar made for weddings,
-engagements, shagun, festivals and unforgettable
+Beautiful handcrafted money haar made specially for
+weddings, engagements, shagun, festivals and memorable
 special occasions.
 </p>
 
-<div class="hero-buttons">
+<div class="buttons">
 
 <a href="#haar" class="btn btn-blue">
 Explore Collection →
 </a>
 
-<a
-href="https://wa.me/919317279089?text=Hello%20Wedding%20Haar,%20I%20want%20to%20know%20about%20your%20collection."
-class="btn btn-green">
+<a href="https://wa.me/919317279089?text=Hello%20Wedding%20Haar,%20I%20want%20to%20know%20about%20your%20collection." class="btn btn-green">
 💬 WhatsApp Us
 </a>
 
@@ -1134,19 +951,17 @@ class="btn btn-green">
 
 <div class="hero-visual">
 
-<div class="orb"></div>
-
 <img
 class="hero-photo"
 src="IMG-20260927-WA0000.jpg"
-alt="Wedding Money Haar">
+alt="Beautiful Wedding Haar">
 
-<div class="floating-card float-one">
+<div class="float float-one">
 <small>POPULAR</small>
 <strong>💵 Wedding Haar</strong>
 </div>
 
-<div class="floating-card float-two">
+<div class="float float-two">
 <small>CUSTOM ORDERS</small>
 <strong>✨ Made For You</strong>
 </div>
@@ -1158,160 +973,108 @@ alt="Wedding Money Haar">
 </section>
 
 
-<!-- ================= STATS ================= -->
-
 <section class="stats">
 
 <div class="stats-grid">
 
 <div class="stat">
 <strong>₹10+</strong>
-<span>NOTE OPTIONS</span>
+<small>NOTE OPTIONS</small>
 </div>
 
 <div class="stat">
 <strong>4+</strong>
-<span>DESIGNS</span>
+<small>DESIGNS</small>
 </div>
 
 <div class="stat">
 <strong>100%</strong>
-<span>HANDMADE</span>
+<small>HANDMADE</small>
 </div>
 
 <div class="stat">
 <strong>💬</strong>
-<span>DIRECT ORDER</span>
+<small>DIRECT ORDER</small>
 </div>
 
 </div>
 
 </section>
 
-
-<!-- ================= COLLECTION ================= -->
 
 <section class="collection" id="haar">
 
 <div class="container">
 
-<div class="section-heading">
-<div class="eyebrow">OUR COLLECTION</div>
+<div class="heading">
+<span>OUR COLLECTION</span>
 <h2>Choose Your Haar</h2>
 <p>
-Different note values for different budgets and occasions.
-Tap any option to enquire directly.
+Choose the note value according to your occasion,
+budget and gifting style.
 </p>
 </div>
-
 
 <div class="haar-grid">
 
-<a class="haar-card"
-href="https://wa.me/919317279089?text=Hello,%20I%20want%20a%20₹10%20note%20haar.%20Please%20share%20details.">
-
+<a class="haar-card" href="https://wa.me/919317279089?text=Hello,%20I%20want%20a%20₹10%20note%20haar.%20Please%20share%20details.">
 <div class="haar-icon">💵</div>
 <h3>₹10 Haar</h3>
-<p>
-Simple and beautiful option for gifting,
-small celebrations and shagun.
-</p>
-
+<p>Simple and beautiful option for gifting, small celebrations and shagun.</p>
 <div class="haar-bottom">
-<span class="price-label">₹10 NOTES</span>
+<span class="price">₹10 NOTES</span>
 <span class="enquire">ENQUIRE →</span>
 </div>
-
 </a>
 
-
-<a class="haar-card"
-href="https://wa.me/919317279089?text=Hello,%20I%20want%20a%20₹20%20note%20haar.%20Please%20share%20details.">
-
+<a class="haar-card" href="https://wa.me/919317279089?text=Hello,%20I%20want%20a%20₹20%20note%20haar.%20Please%20share%20details.">
 <div class="haar-icon">💵</div>
 <h3>₹20 Haar</h3>
-<p>
-Elegant handmade haar for weddings,
-family functions and celebrations.
-</p>
-
+<p>Elegant handmade haar for weddings, family functions and celebrations.</p>
 <div class="haar-bottom">
-<span class="price-label">₹20 NOTES</span>
+<span class="price">₹20 NOTES</span>
 <span class="enquire">ENQUIRE →</span>
 </div>
-
 </a>
 
-
-<a class="haar-card"
-href="https://wa.me/919317279089?text=Hello,%20I%20want%20a%20₹50%20note%20haar.%20Please%20share%20details.">
-
+<a class="haar-card" href="https://wa.me/919317279089?text=Hello,%20I%20want%20a%20₹50%20note%20haar.%20Please%20share%20details.">
 <div class="haar-icon">💵</div>
 <h3>₹50 Haar</h3>
-<p>
-A stylish choice for wedding shagun,
-gifting and special occasions.
-</p>
-
+<p>A stylish choice for wedding shagun, gifting and special occasions.</p>
 <div class="haar-bottom">
-<span class="price-label">₹50 NOTES</span>
+<span class="price">₹50 NOTES</span>
 <span class="enquire">ENQUIRE →</span>
 </div>
-
 </a>
 
-
-<a class="haar-card"
-href="https://wa.me/919317279089?text=Hello,%20I%20want%20a%20₹100%20note%20haar.%20Please%20share%20details.">
-
+<a class="haar-card" href="https://wa.me/919317279089?text=Hello,%20I%20want%20a%20₹100%20note%20haar.%20Please%20share%20details.">
 <div class="haar-icon">💵</div>
 <h3>₹100 Haar</h3>
-<p>
-Premium-looking haar for memorable
-wedding and family celebrations.
-</p>
-
+<p>Premium-looking haar for memorable wedding and family celebrations.</p>
 <div class="haar-bottom">
-<span class="price-label">₹100 NOTES</span>
+<span class="price">₹100 NOTES</span>
 <span class="enquire">ENQUIRE →</span>
 </div>
-
 </a>
 
-
-<a class="haar-card"
-href="https://wa.me/919317279089?text=Hello,%20I%20want%20a%20₹500%20note%20haar.%20Please%20share%20details.">
-
-<div class="haar-icon">💵</div>
-<h3>₹500 Haar</h3>
-<p>
-High-value premium option for grand
-gifting and special occasions.
-</p>
-
-<div class="haar-bottom">
-<span class="price-label">₹500 NOTES</span>
-<span class="enquire">ENQUIRE →</span>
-</div>
-
-</a>
-
-
-<a class="haar-card"
-href="https://wa.me/919317279089?text=Hello,%20I%20want%20a%20custom%20money%20haar.%20Please%20share%20details.">
-
+<a class="haar-card" href="https://wa.me/919317279089?text=Hello,%20I%20want%20a%20custom%20wedding%20haar.%20Please%20share%20details.">
 <div class="haar-icon">✨</div>
 <h3>Custom Haar</h3>
-<p>
-Tell us your budget, quantity and preferred
-style for a custom order.
-</p>
-
+<p>Tell us your preferred note value, design and occasion.</p>
 <div class="haar-bottom">
-<span class="price-label">CUSTOM</span>
-<span class="enquire">ORDER →</span>
+<span class="price">CUSTOM</span>
+<span class="enquire">ENQUIRE →</span>
 </div>
+</a>
 
+<a class="haar-card" href="#contact">
+<div class="haar-icon">👑</div>
+<h3>Premium Haar</h3>
+<p>Special handmade designs for weddings and important celebrations.</p>
+<div class="haar-bottom">
+<span class="price">PREMIUM</span>
+<span class="enquire">CONTACT →</span>
+</div>
 </a>
 
 </div>
@@ -1320,92 +1083,58 @@ style for a custom order.
 
 </section>
 
-
-<!-- ================= GALLERY ================= -->
 
 <section class="gallery" id="gallery">
 
 <div class="container">
 
-<div class="section-heading">
-<div class="eyebrow">OUR WORK</div>
-<h2>Haar Gallery</h2>
-<p>
-Explore our handmade designs. Tap a photo to view it larger.
-</p>
+<div class="heading">
+<span>OUR WORK</span>
+<h2>Wedding Haar Gallery</h2>
+<p>Some beautiful designs from our collection.</p>
 </div>
-
 
 <div class="gallery-grid">
 
-
-<div class="gallery-item"
-onclick="openImage('IMG-20260927-WA0000.jpg')">
-
-<img
-src="IMG-20260927-WA0000.jpg"
-alt="Wedding Haar Design">
-
-<div class="gallery-overlay">
+<div class="gallery-item" onclick="openImage(this)">
+<img src="IMG-20260927-WA0000.jpg" alt="Wedding Haar Design 1">
+<div class="overlay">
 <div>
-<h3>Wedding Collection</h3>
-<p>Handmade money haar design</p>
+<h3>Wedding Haar</h3>
+<p>Handcrafted design</p>
 </div>
 </div>
-
 </div>
 
+<div class="gallery-item" onclick="openImage(this)">
+<img src="IMG_20260927_091744.png" alt="Wedding Haar Design 2">
+<div class="overlay">
+<div>
+<h3>Elegant Haar</h3>
+<p>Beautiful handmade work</p>
+</div>
+</div>
+</div>
 
-<div class="gallery-item"
-onclick="openImage('IMG_20260927_091744.png')">
+<div class="gallery-item" onclick="openImage(this)">
+<img src="file_000000004eec82088a9b17448f724e83.png" alt="Wedding Haar Design 3">
+<div class="overlay">
+<div>
+<h3>Special Collection</h3>
+<p>Perfect for celebrations</p>
+</div>
+</div>
+</div>
 
-<img
-src="IMG_20260927_091744.png"
-alt="Premium Money Haar">
-
-<div class="gallery-overlay">
+<div class="gallery-item" onclick="openImage(this)">
+<img src="file_0000000097c082088a125296751bfb77.png" alt="Wedding Haar Design 4">
+<div class="overlay">
 <div>
 <h3>Premium Design</h3>
-<p>Elegant celebration haar</p>
-</div>
-</div>
-
-</div>
-
-
-<div class="gallery-item"
-onclick="openImage('file_000000004eec82088a9b17448f724e83.png')">
-
-<img
-src="file_000000004eec82088a9b17448f724e83.png"
-alt="Custom Wedding Haar">
-
-<div class="gallery-overlay">
-<div>
-<h3>Custom Collection</h3>
 <p>Made for special occasions</p>
 </div>
 </div>
-
 </div>
-
-
-<div class="gallery-item"
-onclick="openImage('file_0000000097c082088a125296751bfb77.png')">
-
-<img
-src="file_0000000097c082088a125296751bfb77.png"
-alt="Handmade Haar">
-
-<div class="gallery-overlay">
-<div>
-<h3>Special Design</h3>
-<p>Beautiful handmade collection</p>
-</div>
-</div>
-
-</div>
-
 
 </div>
 
@@ -1414,69 +1143,46 @@ alt="Handmade Haar">
 </section>
 
 
-<!-- ================= LIGHTBOX ================= -->
-
-<div class="lightbox" id="lightbox">
-
-<button class="close-lightbox" onclick="closeImage()">
-×
-</button>
-
-<img id="lightbox-img" src="" alt="Haar preview">
-
+<div class="lightbox" id="lightbox" onclick="closeImage()">
+<button class="close" onclick="closeImage()">×</button>
+<img id="lightboxImg" src="" alt="Wedding Haar">
 </div>
 
-
-<!-- ================= WHY US ================= -->
 
 <section class="why" id="why">
 
 <div class="container">
 
-<div class="section-heading">
-<div class="eyebrow">WHY CHOOSE US</div>
-<h2>Made For Your Special Moments</h2>
-<p>
-Every haar is prepared with attention to presentation and occasion.
-</p>
+<div class="heading">
+<span>WHY CHOOSE US</span>
+<h2>Made With Care</h2>
+<p>We focus on beautiful presentation and handmade finishing.</p>
 </div>
 
-
-<div class="feature-grid">
+<div class="features">
 
 <div class="feature">
 <div class="feature-icon">✨</div>
-<h3>Beautiful Designs</h3>
-<p>
-Elegant designs made to look special when gifted at weddings and celebrations.
-</p>
+<h3>Handmade</h3>
+<p>Every haar is carefully prepared with attention to detail.</p>
 </div>
-
 
 <div class="feature">
-<div class="feature-icon">🎨</div>
-<h3>Custom Orders</h3>
-<p>
-Choose your note value, quantity and preferred style according to your requirement.
-</p>
+<div class="feature-icon">💎</div>
+<h3>Beautiful Finish</h3>
+<p>Designed to look special when you gift it at weddings.</p>
 </div>
-
-
-<div class="feature">
-<div class="feature-icon">💬</div>
-<h3>Direct Contact</h3>
-<p>
-Talk directly through WhatsApp or phone before placing your order.
-</p>
-</div>
-
 
 <div class="feature">
 <div class="feature-icon">🎁</div>
-<h3>Perfect For Gifting</h3>
-<p>
-A memorable way to present shagun at weddings, engagements and functions.
-</p>
+<h3>Perfect Gift</h3>
+<p>A unique gifting option for weddings and family functions.</p>
+</div>
+
+<div class="feature">
+<div class="feature-icon">💬</div>
+<h3>Easy Ordering</h3>
+<p>Contact us directly on WhatsApp and discuss your requirement.</p>
 </div>
 
 </div>
@@ -1485,73 +1191,41 @@ A memorable way to present shagun at weddings, engagements and functions.
 
 </section>
 
-
-<!-- ================= PROCESS ================= -->
 
 <section class="process" id="process">
 
 <div class="container">
 
-<div class="section-heading">
-<div class="eyebrow">SIMPLE PROCESS</div>
-<h2>How To Order</h2>
-<p>
-Ordering your haar is simple.
-</p>
+<div class="heading">
+<span>HOW IT WORKS</span>
+<h2>Order In 4 Simple Steps</h2>
+<p>Getting your wedding haar is simple.</p>
 </div>
-
 
 <div class="process-grid">
 
 <div class="process-card">
-
-<div class="step-number">1</div>
-
+<div class="number">1</div>
 <h3>Choose</h3>
-
-<p>
-Select your preferred note value and design.
-</p>
-
+<p>Select your preferred haar design or note value.</p>
 </div>
 
-
 <div class="process-card">
-
-<div class="step-number">2</div>
-
+<div class="number">2</div>
 <h3>Message</h3>
-
-<p>
-Send us your quantity and requirements on WhatsApp.
-</p>
-
+<p>Send us your requirement on WhatsApp.</p>
 </div>
 
-
 <div class="process-card">
-
-<div class="step-number">3</div>
-
+<div class="number">3</div>
 <h3>Confirm</h3>
-
-<p>
-Discuss design, price, delivery and order details.
-</p>
-
+<p>Discuss design, quantity and other details.</p>
 </div>
 
-
 <div class="process-card">
-
-<div class="step-number">4</div>
-
+<div class="number">4</div>
 <h3>Receive</h3>
-
-<p>
-Get your finished haar for your special occasion.
-</p>
-
+<p>Your handmade haar is prepared for your occasion.</p>
 </div>
 
 </div>
@@ -1560,29 +1234,26 @@ Get your finished haar for your special occasion.
 
 </section>
 
-
-<!-- ================= CUSTOM ================= -->
 
 <section class="custom">
 
 <div class="custom-box">
 
-<div class="eyebrow">CUSTOM ORDERS</div>
-
-<h2>Have A Special Requirement?</h2>
+<h2>Want A Custom Wedding Haar?</h2>
 
 <p>
-Tell us your budget, note value, quantity or preferred design.
-We can discuss a custom haar according to your occasion.
+Have a specific note value, quantity or design in mind?
+Tell us what you need and we can discuss a custom order.
 </p>
 
-<div class="hero-buttons" style="justify-content:center;">
+<div class="buttons" style="justify-content:center;">
 
-<a
-class="btn btn-green"
-href="https://wa.me/919317279089?text=Hello%20Wedding%20Haar,%20I%20want%20a%20custom%20haar.%20My%20requirement%20is%3A">
-
+<a href="https://wa.me/919317279089?text=Hello,%20I%20want%20to%20discuss%20a%20custom%20wedding%20haar." class="btn btn-green">
 💬 Discuss Custom Order
+</a>
+
+<a href="#gallery" class="btn btn-outline">
+View Gallery
 </a>
 
 </div>
@@ -1591,123 +1262,36 @@ href="https://wa.me/919317279089?text=Hello%20Wedding%20Haar,%20I%20want%20a%20c
 
 </section>
 
-
-<!-- ================= SERVICE ================= -->
-
-<section class="service">
-
-<div class="container">
-
-<div class="section-heading">
-<div class="eyebrow">ORDER INFORMATION</div>
-<h2>Delivery & Service</h2>
-<p>
-Send your location and requirement to discuss availability.
-</p>
-</div>
-
-
-<div class="service-grid">
-
-<div class="service-card">
-
-<div class="big">📍</div>
-
-<h3>Service Areas</h3>
-
-<p>
-Orders can be discussed from Hamirpur,
-Kangra and surrounding areas.
-</p>
-
-</div>
-
-
-<div class="service-card">
-
-<div class="big">🚚</div>
-
-<h3>Delivery</h3>
-
-<p>
-Nearby delivery may be available depending
-on your location and order.
-</p>
-
-</div>
-
-
-<div class="service-card">
-
-<div class="big">💳</div>
-
-<h3>Payment</h3>
-
-<p>
-Payment and advance requirements can be
-discussed before order confirmation.
-</p>
-
-</div>
-
-</div>
-
-</div>
-
-</section>
-
-
-<!-- ================= FAQ ================= -->
 
 <section class="faq">
 
 <div class="container">
 
-<div class="section-heading">
-<div class="eyebrow">QUESTIONS</div>
+<div class="heading">
+<span>FAQ</span>
 <h2>Frequently Asked Questions</h2>
 </div>
-
 
 <div class="faq-wrap">
 
 <details>
-<summary>Can I order a custom money haar?</summary>
-<p>
-Yes. Send your note value, quantity, budget and preferred design on WhatsApp.
-</p>
+<summary>Can I order a custom haar?</summary>
+<p>Yes. You can contact us on WhatsApp and discuss your preferred design, note value and quantity.</p>
 </details>
 
-
 <details>
-<summary>Which note values are available?</summary>
-<p>
-The website currently shows ₹10, ₹20, ₹50, ₹100 and ₹500 options. Custom requirements can also be discussed.
-</p>
+<summary>Which occasions are these haar suitable for?</summary>
+<p>They are suitable for weddings, engagements, shagun, family functions, festivals and special celebrations.</p>
 </details>
 
-
 <details>
-<summary>How do I place an order?</summary>
-<p>
-Choose your collection and tap the WhatsApp button. Send your requirement and discuss the order details directly.
-</p>
+<summary>How can I place an order?</summary>
+<p>Simply click any WhatsApp or Order button and send your requirement directly.</p>
 </details>
 
-
 <details>
-<summary>Is delivery available?</summary>
-<p>
-Delivery availability depends on your location. Send your location on WhatsApp to discuss it.
-</p>
-</details>
-
-
-<details>
-<summary>Can I ask for a particular design?</summary>
-<p>
-Yes. You can send a reference photo or explain the type of design you want.
-</p>
+<summary>Can I ask for different designs?</summary>
+<p>Yes. You can share your preferred design or discuss available options with us.</p>
 </details>
 
 </div>
@@ -1716,64 +1300,33 @@ Yes. You can send a reference photo or explain the type of design you want.
 
 </section>
 
-
-<!-- ================= CONTACT ================= -->
 
 <section class="contact" id="contact">
 
 <div class="contact-box">
 
-<div class="eyebrow">GET IN TOUCH</div>
-
+<div class="heading" style="margin-bottom:0;">
+<span>GET IN TOUCH</span>
 <h2>Ready To Order?</h2>
-
-<p>
-Tell us what kind of haar you need and we'll discuss the details with you.
-</p>
-
-
-<a
-class="contact-number"
-href="tel:+919317279089">
-📱 9317279089
-</a>
-
-<a
-class="contact-number"
-href="tel:+919805300589">
-☎️ 9805300589
-</a>
-
+<p>Message us directly and tell us what you need.</p>
+</div>
 
 <div class="contact-buttons">
 
-<a
-class="btn btn-green"
-href="https://wa.me/919317279089?text=Hello%20Wedding%20Haar,%20I%20want%20to%20place%20an%20order.">
-
-💬 WhatsApp Order
+<a href="https://wa.me/919317279089?text=Hello%20Wedding%20Haar,%20I%20want%20to%20place%20an%20order." class="btn btn-green">
+💬 Order On WhatsApp
 </a>
 
-<a
-class="btn btn-blue"
-href="tel:+919317279089">
-
-📞 Call Now
+<a href="#gallery" class="btn btn-outline">
+View Designs
 </a>
 
 </div>
-
-
-<p class="contact-note">
-Final price depends on note value, design, quantity and customization.
-</p>
 
 </div>
 
 </section>
 
-
-<!-- ================= FOOTER ================= -->
 
 <footer>
 
@@ -1787,45 +1340,32 @@ Final price depends on note value, design, quantity and customization.
 </div>
 
 <p>
-Handcrafted money haar for weddings, celebrations,
-shagun and memorable special occasions.
+Beautiful handcrafted wedding haar for weddings,
+shagun, engagements and special celebrations.
 </p>
 
 </div>
 
-
 <div class="footer-col">
-
 <h4>Quick Links</h4>
-
 <a href="#home">Home</a>
-<a href="#haar">Haar Collection</a>
+<a href="#haar">Haar</a>
 <a href="#gallery">Gallery</a>
 <a href="#why">Why Us</a>
-<a href="#contact">Contact</a>
-
 </div>
-
 
 <div class="footer-col">
-
 <h4>Order</h4>
-
+<a href="#contact">Contact</a>
 <a href="https://wa.me/919317279089">WhatsApp</a>
-<a href="tel:+919317279089">Call 9317279089</a>
-<a href="tel:+919805300589">Call 9805300589</a>
-
+<a href="#process">How It Works</a>
 </div>
 
 </div>
-
 
 <div class="footer-bottom">
-
-<span>© 2026 Wedding Haar</span>
-
-<span>Handmade With Care ✨</span>
-
+<span>© 2026 Wedding Haar. All rights reserved.</span>
+<span>Handcrafted With ❤️</span>
 </div>
 
 </footer>
@@ -1833,40 +1373,21 @@ shagun and memorable special occasions.
 
 <script>
 
-function openImage(src){
-
-  document.getElementById("lightbox-img").src = src;
-
+function openImage(element){
+  const image = element.querySelector("img");
+  document.getElementById("lightboxImg").src = image.src;
   document.getElementById("lightbox").classList.add("active");
-
-  document.body.style.overflow="hidden";
-
 }
 
 function closeImage(){
-
   document.getElementById("lightbox").classList.remove("active");
-
-  document.getElementById("lightbox-img").src="";
-
-  document.body.style.overflow="";
-
+  document.getElementById("lightboxImg").src = "";
 }
 
-document.getElementById("lightbox").addEventListener("click",function(e){
-
-  if(e.target === this){
+document.addEventListener("keydown",function(event){
+  if(event.key === "Escape"){
     closeImage();
   }
-
-});
-
-document.addEventListener("keydown",function(e){
-
-  if(e.key === "Escape"){
-    closeImage();
-  }
-
 });
 
 </script>
